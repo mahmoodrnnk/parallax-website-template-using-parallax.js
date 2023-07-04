@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+
+body{
+    background-image: url(../img/backround.png);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.mixBland{
+    background-blend-mode: screen;
+}
+
+.scene{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    margin-bottom: 0;
+    shape-image-threshold: inherit;
+
+}
